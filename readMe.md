@@ -10,3 +10,4 @@ pip install langchain-openai
 pip install langchain-pinecone
 pip install unstructured
 pip install "unstructured[md]"
+pip install lark

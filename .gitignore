@@ -3,3 +3,4 @@ Prompts/
 errors
 code_examples/
 exclude_files.json
+__pycache__/
