@@ -60,7 +60,7 @@ class MarkdownSearchModel:
 
         metadata_field_info = [
             AttributeInfo(name="name", description="The name of the document", type="string"),
-            AttributeInfo(name="tags", description="Tags associated with the document", type="list"),
+            AttributeInfo(name="tags", description="Tags associated with the document", type="list[string]"),  # Change type
             AttributeInfo(name="date-created", description="The date the document was created", type="date"),
         ]
 

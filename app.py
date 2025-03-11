@@ -2,7 +2,7 @@ from markdown_model import MarkdownSearchModel
 
 
 chat_model = MarkdownSearchModel()
-query = "what notes do i have on self reflection has a tag named to do or AI Ideas"
+query = "Find notes on self-reflection where tag in ['to do', 'AI Ideas']"
 
 query_constructor = chat_model.query_constructor.invoke(query)
 
